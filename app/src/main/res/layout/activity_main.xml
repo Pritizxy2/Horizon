@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="255dp"
+        android:layout_height="133dp"
+        android:text="LOGIN OR SIGNUP "
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="11dp" />
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="username"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="178dp" />
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="password"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="264dp" />
+    <EditText
+        android:id="@+id/ed3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="repassword"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="264dp" />
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Existing user "
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="370dp" />
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Signup"
+        tools:layout_editor_absoluteX="223dp"
+        tools:layout_editor_absoluteY="363dp" />
+</LinearLayout>
